@@ -13,7 +13,10 @@
             pointer-events: none;
             font-size: 1.3rem;
             display: none;
-}
+        }
+        .center {
+            text-align: center;
+        }
 
 
 
@@ -27,6 +30,10 @@
     </svg>
 
     <div id="tooltip">Tooltip</div>  
+
+    <div>
+        <button id="next">NEXT</button>
+   </div>
 
     <h2>Have works in the above Institutions</h2>
 
@@ -90,12 +97,17 @@
         let x = coords[0];
         let y = coords[1];
         
-            d3.select("#tooltip")
-                .style("display", "block")
-                .style("top", y)
-                .style("left", x)
-                .text(text) 
+        d3.select("#tooltip")
+            .style("display", "block")
+            .style("top", y)
+            .style("left", x)
+            .text(text) 
         }
+
+        d3.select("button#next")
+            .on("click", function () {
+            change(data[1]);
+        })
             
         g.append("path")
             .attr("d", arc)
@@ -115,6 +127,49 @@
                 this.style.fill =  colorScale(d.data.artist)
                 d3.select("#tooltip").style("display", "none")
             })
+
+        function change(data) {
+            var pie = d3.pie()
+            .value(function (d) {
+                return 1;
+            }).sort(null)(data.data);     
+            
+            var width = 360;
+            var height = 360;
+            var radius = Math.min(width, height) / 2;
+            var donutWidth = 75;     
+            
+            path = d3.select("#body")
+                .selectAll("path")
+                .data(pie); // Compute the new angles
+            var arc = d3.arc()
+                .innerRadius(radius - donutWidth)
+                .outerRadius(radius);  
+            path.enter().append("path")
+                .attr("d", arc)
+                .attr("fill", d => {
+                return colorScale(d.data.artist)
+            })
+            .on('mouseenter', function (d) {
+                showTooltip(d.data.artist, [d3.event.clientX, d3.event.clientY]);
+                d3.select(this).transition()
+               .duration('50') 
+                this.style.fill = "#992a5b"; 
+            })
+            .on('mousemove', function (d) {
+                showTooltip(d.data.artist, [d3.event.clientX, d3.event.clientY]);
+            })
+            .on("mouseleave", function(d) {
+                this.style.fill =  colorScale(d.data.artist)
+                d3.select("#tooltip").style("display", "none")
+            })
+   
+            path.transition().duration(500).attr("d", arc); // redrawing the path with a smooth transition
+            
+
+        }
+
+
             
 
 
