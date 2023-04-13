@@ -21,7 +21,8 @@
 </head>
 
 <body>
-    <h2>These SAAM Artists...</h2>
+    <h2>Did you know that?...</h2>
+    <h3>These SAAM women in arts also have works collected at ...</h3>
     <svg id="container" height="300" width="500">
         <g id="body" transform="translate(150,150)"></g>
         
@@ -30,7 +31,7 @@
     <div id="tooltip">Tooltip</div>  
 
     <button id="prev">Previous</button><button id="next">Next</button>
-    <h2> also have works collected at:</h2>
+
     <h1 id="change"></h1>
 
 </body>
@@ -106,16 +107,11 @@
     //}
 
     function showData(institutionName) {
-        let bodyHeight = 200
+        let bodyHeight = 250
         let bodyWidth = 400
 
-        let data = storeInst.filter(d => d.name == institutionName); //TODO: filter the routes to keep only the routes which AirlineID is equal to the parameter airlineID received by the function
+        let data = storeInst.filter(d => d.name == institutionName); 
         let object = data[0]
-       
-        // data = data.map (d =>({
-        //     data: d.data,
-        //     name: d.name
-        // }))
        
         let pie = d3.pie()
             .value(d => 1);
