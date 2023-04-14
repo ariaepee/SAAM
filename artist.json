@@ -1,14 +1,143 @@
 [
 {
-    "name": "Institute of American Indian Arts",
+    "name": "Institute of American Indian Arts","edUrl": "http://www.wikidata.org/entity/Q4671107",
     "data": [{"artist":"Kelly Church"},{"artist":"Marie Watt"},{"artist":"Christine McHorse"}]
 },
 {
-    "name": "Académie Julian",
+    "name": "Académie Julian","edUrl": "http://www.wikidata.org/entity/Q4671107",
     "data": [{"artist":"Louise Bourgeois"},{"artist":"Hilla von Rebay"},{"artist":"Louise Catherine Breslau"},{"artist":"Lilla Cabot Perry"},{"artist":"Beatrice Wood"},{"artist":"Cecilia Beaux"},{"artist":"Ellen Day Hale"},{"artist":"Lydia Field Emmet"},{"artist":"Beth Van Hoesen"},{"artist":"Margaret Lesley Bush-Brown"},{"artist":"Elsie Dodge Pattee"},{"artist":"Angèle Delasalle"},{"artist":"Rosina Emmet Sherwood"}]
 },
 {
-    "name": "Boston University",
+    "name": "Boston University","edUrl": "http://www.wikidata.org/entity/Q4671107",
     "data": [{"artist":"Jeanne Birdsall"},{"artist":"Howardena Pindell"},{"artist":"Blythe Bohnen"},{"artist":"Susan Louise Shatter"}]
-}
-]
+},
+
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q4671107",
+      "name": "Academia del Perpetuo Socorro",
+      "data": [{"artist": "Cristina Córdova"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q414110",
+      "name": "Academy of Arts, Berlin",
+      "data": [{"artist": "Sheila Isham"},
+        {"artist": "Ruth Bernhard"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q414052",
+      "name": "Academy of Arts, Munich",
+      "data": [{"artist":"Elisabet Ney"},
+        {"artist":"Sondra Sherman"},
+        {"artist":"Katja Oxman"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q337454",
+      "name": "Académie Colarossi",
+      "data": [{"artist":"Romaine Brooks"},
+        {"artist":"Cornelia Ellis Hildebrandt"},
+        {"artist":"Dorothy Stevens"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q41573653",
+      "name": "Académie Delécluse",
+      "data": [{"artist":"Blanche Lazzell"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q337480",
+      "name": "Académie Julian",
+      "data": [{"artist":"Louise Bourgeois"},
+        {"artist":"Hilla von Rebay"},
+        {"artist":"Louise Catherine Breslau"},
+        {"artist":"Lilla Cabot Perry"},
+        {"artist":"Cecilia Beaux"},
+        {"artist":"Beatrice Wood"},
+        {"artist":"Ellen Day Hale"},
+        {"artist":"Lydia Field Emmet"},
+        {"artist":"Beth Van Hoesen"},
+        {"artist":"Margaret Lesley Bush-Brown"},
+        {"artist":"Angèle Delasalle"},
+        {"artist":"Elsie Dodge Pattee"},
+        {"artist":"Rosina Emmet Sherwood"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q16242504",
+      "name": "Académie de La Palette",
+      "data": [{"artist":"Marguerite Zorach"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q337504",
+      "name": "Académie de la Grande Chaumière",
+      "data": [{"artist":"Berenice Abbott"},
+        {"artist":"Louise Bourgeois"},
+        {"artist":"Augusta Savage"},
+        {"artist":"Chryssa"},
+        {"artist":"Maxine Albro"},
+        {"artist":"Olga Albizu"},
+        {"artist":"Laura Wheeler Waring"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q4682076",
+      "name": "Adelphi University",
+      "data": [{"artist":"Alexandrina Robertson Harris"},
+        {"artist":"Clara Fasano"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q3446091",
+      "name": "Alfred University",
+      "data": [{"artist":"Cristina Córdova"},
+        {"artist":"Margaret Boozer"},
+        {"artist":"Kristen Morgin"},
+        {"artist":"Julia Galloway"},
+        {"artist":"Judy Moonelis"},
+        {"artist":"Cynthia Bringle"},
+        {"artist":"Linda Sormin"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q463271",
+      "name": "American Academy in Rome",
+      "data": [{"artist":"Barbara Chase-Riboud"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q4742868",
+      "name": "American Academy of Art College",
+      "data": [{"artist":"Gertrude Abercrombie"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q389336",
+      "name": "American Academy of Dramatic Arts",
+      "data": [{"artist":"Dorothy Dehner"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q168000",
+      "name": "American University",
+      "data": [{"artist":"Mimi Herbert"},
+        {"artist":"Mindy Weisel"},
+        {"artist":"Nancy Rexroth"},
+        {"artist":"Jennie Lea Knight"},
+        {"artist":"Maggie Michael"}
+      ]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q49165",
+      "name": "Amherst College",
+      "data": [{"artist":"Sonya Clark"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q1569421",
+      "name": "Andes University",
+      "data": [{"artist":"Fanny Sanín"}]
+    },
+    {
+      "edUrl": "http://www.wikidata.org/entity/Q109176",
+      "name": "Annenberg School for Communication at the University of Pennsylvania",
+      "data": [{"artist":"Linda Sormin"}]
+    }
+  ]
